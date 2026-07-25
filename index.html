@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>MarketGo - Buy & Sell Second-Hand Local</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- MarketGo CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Splash Screen -->
+<div id="splash">
+
+    <img src="logo.png" class="splash-logo">
+
+    <h1>MarketGo</h1>
+
+    <div class="loader"></div>
+
+    <p id="statusText">Loading...</p>
+
+    <button id="retryBtn" onclick="location.reload()" style="display:none;">
+        Retry
+    </button>
+
+</div>
+    <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <i class="fa-solid fa-bag-shopping"></i> MarketGo
+    </a>
+
+    <button class="btn btn-warning btn-sm d-lg-none"
+            onclick="showPage('partner')">
+      <i class="fa-solid fa-store"></i> Sell
+    </button>
+  </div>
+</nav>
+
+<div class="container pb-nav" id="app">
+
+<!-- HOME PAGE -->
+<div id="page-home" class="page">
+
+  <div class="py-3">
+    <input
+      type="text"
+      id="searchInput"
+      class="form-control search-bar"
+      placeholder="Search products, brands, categories...">
+  </div>
+
+  <!-- Banner -->
+  <div id="banner"
+       class="carousel slide mb-3"
+       data-bs-ride="carousel"
+       data-aos="fade-up">
+
+    <div class="carousel-inner rounded-4">
+
+      <div class="carousel-item active">
+        <img
+src="marketgo1.jpg"
+class="d-block w-100 rounded-4"
+alt="banner">
+      </div>
+
+      <div class="carousel-item">
+        <img
+         src="marketgo2.jpg"
+class="d-block w-100 rounded-4"
+alt="banner">
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Categories -->
+  <h6 class="fw-bold mb-2">
+    Categories
+  </h6>
+
+  <div
+      class="d-flex gap-2 overflow-auto mb-3"
+      id="categoryList">
+  </div>
+
+  <!-- Featured -->
+  <h6 class="fw-bold mb-2">
+    Featured Products
+  </h6>
+
+  <div
+      class="row g-3 mb-3"
+      id="featuredProducts">
+  </div>
+
+  <!-- Latest -->
+  <h6 class="fw-bold mb-2">
+    Latest Deals
+  </h6>
+
+  <div
+      class="row g-3"
+      id="latestProducts">
+  </div>
+
+</div>
+<!-- CATEGORIES PAGE -->
+<div id="page-categories" class="page d-none">
+
+  <h5 class="fw-bold my-3">
+    All Categories
+  </h5>
+
+  <div class="row g-3" id="allCategories"></div>
+
+</div>
+
+<!-- PRODUCTS BY CATEGORY -->
+<div id="page-category" class="page d-none">
+
+  <h5 class="fw-bold my-3" id="categoryTitle"></h5>
+
+  <div class="row g-3" id="categoryProducts"></div>
+
+</div>
+
+<!-- PRODUCT DETAILS -->
+<div id="page-product" class="page d-none">
+
+  <div id="productDetail"></div>
+
+</div>
+
+<!-- FAVORITES -->
+<div id="page-favorites" class="page d-none">
+
+  <h5 class="fw-bold my-3">
+    Your Favorites
+  </h5>
+
+  <div class="row g-3" id="favoriteProducts"></div>
+
+</div>
+
+<!-- PARTNER SELLER -->
+<div id="page-partner" class="page d-none">
+
+  <h5 class="fw-bold my-3">
+    Become a Partner Seller
+  </h5>
+
+  <div class="card p-3" data-aos="fade-up">
+
+    <p>
+      Join MarketGo and start selling your second-hand items.
+      No fees to list.
+      We coordinate sales and secure commission for you.
+    </p>
+
+    <p><b>How it works:</b></p>
+
+    <ol>
+      <li>Tap the button below</li>
+      <li>Send us product details + photos via Messenger</li>
+      <li>We upload it for you and handle buyer inquiries</li>
+    </ol>
+
+    <button
+      class="btn btn-primary"
+      onclick="openMessenger('Hello MarketGo. I want to become a Partner Seller.')">
+
+      <i class="fa-brands fa-facebook-messenger"></i>
+
+      Message Us on Messenger
+
+    </button>
+
+  </div>
+
+</div>
+
+<!-- STATIC PAGE -->
+<div id="page-static" class="page d-none">
+
+  <div id="staticContent"></div>
+
+</div>
+
+</div>
+<!-- BOTTOM NAV -->
+<div class="bottom-nav d-flex justify-content-around py-2">
+
+    <a href="#"
+       onclick="showPage('home')"
+       class="text-center active"
+       id="nav-home">
+
+        <i class="fa-solid fa-house d-block"></i>
+        Home
+
+    </a>
+
+    <a href="#"
+       onclick="showPage('categories')"
+       class="text-center"
+       id="nav-categories">
+
+        <i class="fa-solid fa-grid-2 d-block"></i>
+        Categories
+
+    </a>
+
+    <a href="#"
+       onclick="showPage('favorites')"
+       class="text-center"
+       id="nav-favorites">
+
+        <i class="fa-solid fa-heart d-block"></i>
+        Favorites
+
+    </a>
+
+    <a href="#"
+       onclick="showPage('partner')"
+       class="text-center"
+       id="nav-partner">
+
+        <i class="fa-solid fa-store d-block"></i>
+        Sell
+
+    </a>
+
+    <a href="#"
+       onclick="showStatic('profile')"
+       class="text-center"
+       id="nav-profile">
+
+        <i class="fa-solid fa-user d-block"></i>
+        Profile
+
+    </a>
+
+</div>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Products -->
+<script src="products.js"></script>
+
+<!-- Main Script -->
+<script src="script.js"></script>
+
+</body>
+
+</html>

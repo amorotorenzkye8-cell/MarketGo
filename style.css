@@ -233,8 +233,19 @@ body{
     border-radius:30px;
     font-weight:bold;
 }
+
 .navbar{
     background: var(--primary);
     min-height: 56px;
     padding: 8px 0;
+}
+
+/* Prevent navbar from overlapping the phone status bar */
+.navbar{
+    padding-top: calc(env(safe-area-inset-top) + 10px);
+    padding-bottom: 10px;
+}
+
+body{
+    padding-top: env(safe-area-inset-top);
 }

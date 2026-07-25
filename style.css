@@ -249,3 +249,6 @@ body{
 body{
     padding-top: env(safe-area-inset-top);
 }
+.head-container{
+    padding-top: 28px:
+}

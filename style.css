@@ -252,21 +252,23 @@ body{
 /* ===== APP HEADER ===== */
 
 .app-header{
-    background:#064E3B;
-    padding-top:40px;
-    padding-bottom:12px;
     position:sticky;
     top:0;
     z-index:1000;
+    background:#064E3B;
+    padding:40px 20px 12px;
 }
 
 .header-row{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    width:100%;
 }
 
 .logo{
+    display:flex;
+    align-items:center;
     color:#fff;
     font-size:22px;
     font-weight:700;
@@ -277,7 +279,9 @@ body{
 }
 
 .sell-btn{
+    background:#FFC107;
+    border:none;
     border-radius:10px;
-    padding:8px 16px;
+    padding:10px 16px;
     font-weight:600;
 }

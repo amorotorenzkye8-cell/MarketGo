@@ -233,3 +233,8 @@ body{
     border-radius:30px;
     font-weight:bold;
 }
+.navbar{
+    background: var(--primary);
+    min-height: 56px;
+    padding: 8px 0;
+}

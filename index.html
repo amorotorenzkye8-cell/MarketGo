@@ -39,37 +39,40 @@
     </button>
 
 </div>
-    <!-- APP HEADER -->
+   <!-- APP HEADER -->
 <div class="app-header">
 
-    <div class="container header-row">
+    <div class="container">
 
-        <div class="logo">
-            <i class="fa-solid fa-bag-shopping"></i>
-            <span>MarketGo</span>
+        <div class="header-top">
+
+            <div class="logo">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>MarketGo</span>
+            </div>
+
+            <button class="btn btn-warning sell-btn"
+                    onclick="showPage('partner')">
+                <i class="fa-solid fa-store"></i>
+                Sell
+            </button>
+
         </div>
 
-        <button class="btn btn-warning sell-btn"
-                onclick="showPage('partner')">
-            <i class="fa-solid fa-store"></i> Sell
-        </button>
+        <div class="mt-3">
+            <input
+                type="text"
+                id="searchInput"
+                class="form-control app-search"
+                placeholder="Search products, brands, categories...">
+        </div>
 
     </div>
-
-</div>
 
 <div class="container pb-nav" id="app">
 
 <!-- HOME PAGE -->
 <div id="page-home" class="page">
-
-  <div class="py-3">
-    <input
-      type="text"
-      id="searchInput"
-      class="form-control search-bar"
-      placeholder="Search products, brands, categories...">
-  </div>
 
   <!-- Banner -->
   <div id="banner"

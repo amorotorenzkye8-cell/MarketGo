@@ -249,6 +249,35 @@ body{
 body{
     padding-top: env(safe-area-inset-top);
 }
-.head-container{
-    padding-top: 28px;
+/* ===== APP HEADER ===== */
+
+.app-header{
+    background:#064E3B;
+    padding-top:40px;
+    padding-bottom:12px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.header-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#fff;
+    font-size:22px;
+    font-weight:700;
+}
+
+.logo i{
+    margin-right:8px;
+}
+
+.sell-btn{
+    border-radius:10px;
+    padding:8px 16px;
+    font-weight:600;
 }

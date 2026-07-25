@@ -256,32 +256,27 @@ body{
     top:0;
     z-index:1000;
     background:#064E3B;
-    padding:40px 20px 12px;
-}
-
-.header-row{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    width:100%;
+    padding:30px 20px 10px;
 }
 
 .logo{
     display:flex;
     align-items:center;
     color:#fff;
-    font-size:22px;
+    font-size:18px;
     font-weight:700;
 }
 
 .logo i{
     margin-right:8px;
+    font-size:20px;
 }
 
 .sell-btn{
     background:#FFC107;
     border:none;
-    border-radius:10px;
-    padding:10px 16px;
+    border-radius:12px;
+    padding:8px 14px;
+    font-size:16px;
     font-weight:600;
 }

@@ -234,47 +234,49 @@ body{
     font-weight:bold;
 }
 
+.navbar{
+    background: var(--primary);
+    min-height: 56px;
+    padding: 8px 0;
+}
+
+/* Prevent navbar from overlapping the phone status bar */
+.navbar{
+    padding-top: calc(env(safe-area-inset-top) + 10px);
+    padding-bottom: 10px;
+}
+
+body{
+    padding-top: env(safe-area-inset-top);
+}
 /* ===== APP HEADER ===== */
 
 .app-header{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background: #064E3B;
-    padding: 12px 0 16px;
-}
-
-.header-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#064E3B;
+    padding:30px 20px 10px;
 }
 
 .logo{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
+    display:flex;
+    align-items:center;
+    color:#fff;
+    font-size:18px;
+    font-weight:700;
 }
 
 .logo i{
-    font-size: 22px;
+    margin-right:8px;
+    font-size:20px;
 }
 
 .sell-btn{
-    background: #FFC107;
-    border: none;
-    border-radius: 12px;
-    padding: 8px 14px;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-.app-search{
-    border-radius: 30px;
-    height: 48px;
-    font-size: 16px;
-    border: none;
+    background:#FFC107;
+    border:none;
+    border-radius:12px;
+    padding:8px 14px;
+    font-size:16px;
+    font-weight:600;
 }

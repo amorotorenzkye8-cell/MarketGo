@@ -36,7 +36,6 @@ const PRODUCTS = [
 
     images: [
       "https://files.catbox.moe/1g0m6m.png"
-      },
     ],
 
     featured: false,

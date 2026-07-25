@@ -20,6 +20,23 @@ const PRODUCTS = [
       "mic.jpg",
       "mic2.jpg",
       "mic3.jpg"
+      },
+  {
+    id: 2,
+    name: "Iphone",
+    price: 5000,
+    category: "Cellphones & Tablets",
+    condition: "Second Hand",
+
+    seller: "Lugaw Parmacy",
+    location: "Bat-Ongan, Mandaon, Masbate",
+    date: "July 25, 2026 • 5:42 PM",
+
+    description: "Ibinta dahil wala nang ka chat",
+
+    images: [
+      "https://files.catbox.moe/1g0m6m.png"
+      },
     ],
 
     featured: false,

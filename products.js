@@ -92,9 +92,9 @@ const PRODUCTS = [
     description: "🌱 100% Pure Vermicast (Premium Organic Fertilizer). Rich in natural nutrients that improve soil fertility, promote strong root growth, and support healthier plants. Safe for vegetables, fruits, flowers, potted plants, and farm crops.",
 
    images: [
-"https://files.catbox.moe/bvydeh.jpg",
-"https://files.catbox.moe/lkqxie.jpg",
-"https://files.catbox.moe/2m1l8a.jpg"
+"vermicast1.jpg",
+"vermicast2.jpg",
+"vermicast3.jpg"
     ],
 
     featured: false,

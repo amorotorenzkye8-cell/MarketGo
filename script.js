@@ -173,9 +173,12 @@ function card(p) {
           ${p.name}
         </div>
 
-        <div class="price">
-          ₱${p.price.toLocaleString()}
-        </div>
+        <div class="d-flex justify-content-between align-items-center mt-2">
+    <span class="price">₱${p.price}</span>
+    <small class="text-muted">
+        <i class="bi bi-eye"></i> ${p.views} Views
+    </small>
+</div>
 
         <span class="badge badge-condition">
           ${p.condition}

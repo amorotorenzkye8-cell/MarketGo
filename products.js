@@ -75,6 +75,32 @@ const PRODUCTS = [
     featured: false,
     latest: true,
     favorite: false
+},
+
+  {
+    id: 4,
+    name: "Vermicast Organic Fertilizer",
+    price: "35 per kilo",
+    category: "Gardening & Plants",
+    condition: "Brand New",
+
+    seller: "Helen Bugos",
+    sellerLink: "https://www.facebook.com/AgricooltouristangOA",
+    location: "Cabitan, Mandaon, Masbate (Pagmaya Food Farm)",
+    date: "July 26, 2026 • 9:47 PM",
+
+    description: "🌱 100% Pure Vermicast (Premium Organic Fertilizer)
+Rich in natural nutrients that improve soil fertility, promote strong root growth, and support healthier plants. Safe for vegetables, fruits, flowers, potted plants, and other crops. Chemical-free and environmentally friendly. Perfect for home gardens and farms.",
+
+    images: [
+        "https://files.catbox.moe/h52878.jpg",
+        "https://files.catbox.moe/n3hb5f.jpg",
+        "https://files.catbox.moe/30bgyx.jpg"
+    ],
+
+    featured: false,
+    latest: true,
+    favorite: false
 }
 ];
 // ===============================
@@ -94,5 +120,6 @@ const CATEGORIES = [
   "Cars & Motorcycles",
   "Garden & Tools",
   "Musical Instruments",
+  "Gardening & Plants",
   "Others"
 ];

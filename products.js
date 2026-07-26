@@ -100,6 +100,31 @@ const PRODUCTS = [
     featured: false,
     latest: true,
     favorite: false
+},
+
+ {
+    id: 5,
+    name: "Honey Tech Gold",
+    price: "500 per bottle (250ml)",
+    category: "Food & Beverages",
+    condition: "Brand New",
+
+    seller: "Marlon Manango",
+    sellerLink: "https://www.facebook.com/marlon.manango.1",
+    location: "Sto. niño, Monreal, Philippines (TechCao Integrated Agriculture and Bee Farm)",
+    date: "July 26, 2026 • 11:10 PM",
+
+  description: "🍯 Experience the rich taste of Honey Tech Gold Stingless Bee Honey! 100% natural at premium stingless bee honey na maingat na inani mula sa TECHCAO Integrated Agriculture and Bee Farm sa Sto. Niño, Monreal, Masbate. Purong-puro, natural, at sustainably harvested upang mapanatili ang mataas na kalidad at tunay na lasa nito. Masarap inumin nang direkta o ihalo sa iyong paboritong inumin at pagkain. Suportahan ang ating mga lokal na magsasaka sa pamamagitan ng pagpili ng Honey Tech Gold.",
+
+   images: [
+"honey1.jpg",
+"honey2.jpg",
+"honey3.jpg"
+    ],
+
+    featured: false,
+    latest: true,
+    favorite: false
 }
 ];
 // ===============================
@@ -107,18 +132,16 @@ const PRODUCTS = [
 // ===============================
 
 const CATEGORIES = [
-  "Cellphones & Tablets",
-  "Computers & Laptops",
+  "Gadgets",
   "School Supplies",
-  "Home Appliances",
-  "Furniture",
-  "Fashion",
+  "Appliances",
   "Shoes",
   "Bags",
-  "Watches & Accessories",
+  "Accessories",
   "Cars & Motorcycles",
   "Garden & Tools",
   "Musical Instruments",
   "Gardening & Plants",
+  "Food & Beverages",
   "Others"
 ];

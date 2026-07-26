@@ -100,7 +100,7 @@ const PRODUCTS = [
     featured: false,
     latest: true,
     favorite: false
-}
+},
 ];
 // ===============================
 // MARKETGO CATEGORIES

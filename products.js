@@ -117,9 +117,9 @@ const PRODUCTS = [
   description: "🍯 Experience the rich taste of Honey Tech Gold Stingless Bee Honey! 100% natural at premium stingless bee honey na maingat na inani mula sa TECHCAO Integrated Agriculture and Bee Farm sa Sto. Niño, Monreal, Masbate. Purong-puro, natural, at sustainably harvested upang mapanatili ang mataas na kalidad at tunay na lasa nito. Masarap inumin nang direkta o ihalo sa iyong paboritong inumin at pagkain. Suportahan ang ating mga lokal na magsasaka sa pamamagitan ng pagpili ng Honey Tech Gold.",
 
    images: [
-"honey1.jpg",
-"honey2.jpg",
-"honey3.jpg"
+"https://files.catbox.moe/g34j4t.jpg",
+"https://files.catbox.moe/sjrry3.jpg",
+"https://files.catbox.moe/hnbvsh.jpg"
     ],
 
     featured: false,

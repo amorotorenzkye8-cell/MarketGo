@@ -114,7 +114,18 @@ const PRODUCTS = [
     location: "Sto. niño, Monreal, Philippines (TechCao Integrated Agriculture and Bee Farm)",
     date: "July 26, 2026 • 11:10 PM",
 
-  description: "🍯 Experience the rich taste of Honey Tech Gold Stingless Bee Honey! 100% natural at premium stingless bee honey na maingat na inani mula sa TECHCAO Integrated Agriculture and Bee Farm sa Sto. Niño, Monreal, Masbate. Purong-puro, natural, at sustainably harvested upang mapanatili ang mataas na kalidad at tunay na lasa nito. Masarap inumin nang direkta o ihalo sa iyong paboritong inumin at pagkain. Suportahan ang ating mga lokal na magsasaka sa pamamagitan ng pagpili ng Honey Tech Gold.",
+ description:
+    "🍯 Experience the rich taste of Honey Tech Gold Stingless Bee Honey! " +
+    "100% natural and premium stingless bee honey, carefully harvested from " +
+    "TECHCAO Integrated Agriculture and Bee Farm in Sto. Niño, Monreal, Masbate. " +
+    "Pure, natural, and sustainably harvested to preserve its rich quality and authentic taste. " +
+    "Enjoy it on its own or mix it with your favorite drinks and food. " +
+    "Support our local farmers by choosing Honey Tech Gold. " +
+    "100% natural at premium stingless bee honey, maingat na inani mula sa " +
+    "TECHCAO Integrated Agriculture and Bee Farm sa Sto. Niño, Monreal, Masbate. " +
+    "Purong-puro, natural, at sustainably harvested upang mapanatili ang mataas na kalidad at tunay na lasa nito. " +
+    "Masarap inumin nang direkta o ihalo sa iyong paboritong inumin at pagkain. " +
+    "Suportahan ang ating mga lokal na magsasaka sa pamamagitan ng pagpili ng Honey Tech Gold.",
 
    images: [
 "honey1.jpg",

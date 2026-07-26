@@ -6,8 +6,8 @@ const PRODUCTS = [
   {
     id: 1,
     name: "Honey Tech Gold",
-    price: "500/250ml",
-    views: 1245,
+    price: "500 per 250ml",
+    views: 714,
     category: "Food & Beverages",
     condition: "Brand New",
 

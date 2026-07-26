@@ -80,7 +80,7 @@ const PRODUCTS = [
   {
     id: 4,
     name: "Vermicast Organic Fertilizer",
-    price: "35 per kilo",
+    price: "35/kg",
     category: "Gardening & Plants",
     condition: "Brand New",
 
@@ -89,8 +89,7 @@ const PRODUCTS = [
     location: "Cabitan, Mandaon, Masbate (Pagmaya Food Farm)",
     date: "July 26, 2026 • 9:47 PM",
 
-    description: "🌱 100% Pure Vermicast (Premium Organic Fertilizer)
-Rich in natural nutrients that improve soil fertility, promote strong root growth, and support healthier plants. Safe for vegetables, fruits, flowers, potted plants, and other crops. Chemical-free and environmentally friendly. Perfect for home gardens and farms.",
+    description: "🌱 100% Pure Vermicast (Premium Organic Fertilizer). Rich in natural nutrients that improve soil fertility, promote strong root growth, and support healthier plants. Safe for vegetables, fruits, flowers, potted plants, and farm crops.",
 
     images: [
         "https://files.catbox.moe/h52878.jpg",

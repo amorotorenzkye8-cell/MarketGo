@@ -3,58 +3,9 @@
 // ===============================
 
 const PRODUCTS = [
-  {
-    id: 1,
-    name: "Microphone",
-    price: 450,
-    category: "Musical Instruments",
-    condition: "Second Hand",
-
-    seller: "Janjan Abonales",
-    sellerLink: "https://www.facebook.com/janjan.abonaled",
-    location: "Cabitan, Mandaon, Masbate",
-    date: "July 25, 2026 • 3:25 PM",
-
-    description: "Selling a second-hand microphone in good working condition. Complete and ready to use. Reason for selling: upgraded to a new microphone.",
-
-    images: [
-      "mic.jpg",
-      "mic2.jpg",
-      "mic3.jpg"
-    ],
-
-    featured: false,
-    latest: true,
-    favorite: false
-  },
-
-  {
-    id: 2,
-    name: "Transistor Radio",
-    price: 320,
-    category: "Musical Instruments",
-    condition: "Brand New",
-
-    seller: "LCC Placer",
-    sellerLink: "https://www.facebook.com/profile.php?id=100086186304359",
-    location: "Placer, Masbate",
-    date: "July 26, 2026 • 5:15 PM",
-
-    description: "Brand new transistor radio. Good quality, clear sound, and ready to use.",
-
-    images: [
-      "https://files.catbox.moe/bvydeh.jpg",
-      "https://files.catbox.moe/lkqxie.jpg",
-      "https://files.catbox.moe/2m1l8a.jpg"
-    ],
-
-    featured: false,
-    latest: true,
-    favorite: false
-  },
   
   {
-    id: 3,
+    id: 1,
     name: "Flash Drive",
     price: 250,
     category: "Computers & Laptops",
@@ -78,7 +29,7 @@ const PRODUCTS = [
 },
 
   {
-    id: 4,
+    id: 2,
     name: "Vermicast Organic Fertilizer",
     price: "35/kg",
     category: "Gardening & Plants",
@@ -103,7 +54,7 @@ const PRODUCTS = [
 },
 
  {
-    id: 5,
+    id: 3,
     name: "Honey Tech Gold",
     price: "500 per bottle (250ml)",
     category: "Food & Beverages",
